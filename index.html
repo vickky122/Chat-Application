@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat Application</title>
+</head>
+<body>
+            <form id="RoomForm" action="
+            " class="form">
+                <div class="mb-3">
+                    <label for="roomId">RoomID</label>
+                    <input type="text" name="roomId" id="roomId" placeholder="Enter RoomID">
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn">Login</button>
+                </div>
+        </form>
+<!-- //d-none -->
+ <div id="chat-data" class="chat d-none">
+    <h1>You Join Room As  <span id="roomid"></span> <button id="logoutBtn">logout</button>
+        <button id="resetChats">resetChats</button> </h1>
+        <div id="main">
+                   
+                    <div id="chats_data" class="chat-screen">
+                                <!-- <div class="other-user">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3607/3607444.png" alt="">
+                                            <p>Lorem, ipsum dolor.</p>
+                                </div>
+                                <div class="current-user">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/6596/6596121.png" alt="">
+                                        <p>Lorem</p>
+                                </div> -->
+                    </div>
+                    <form id="chat-form" class="chat-form">
+                        <input type="text"  name="msg" id="chat" placeholder="Enter Message">
+                        <button>+</button>
+                    </form>
+        </div>
+ </div>
+
+
+</body>
+<script src="index.js"></script>
+</html>
